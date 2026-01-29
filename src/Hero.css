@@ -1,0 +1,45 @@
+#hero {
+    margin: 0;
+    padding: 0;
+}
+
+#codepulsetext {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 3rem;
+}
+
+#pulseText {
+    color: rgb(14, 14, 119);
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#installer {
+    margin-top: 1rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    background-color: rgb(21, 21, 97);
+    color: aliceblue;
+}
+
+#description {
+    margin-top: 0px;
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+}
