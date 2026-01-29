@@ -43,7 +43,7 @@ function Hero() {
 
       {/* Description, fades in after PULSE completes */}
       <div className={`fade-in ${showContent ? "visible" : ""}`}>
-        <h3 id="description">Coding productivity time tracker for Developers</h3>
+        <h3 id="description">Coding productivity time tracker for developers</h3>
         <a id="installer" href="https://github.com/waleedhkirmani/CodePulseLandingPage/releases/download/installer/CodePulseSetup.exe" download>Install for Windows</a>
       </div>
     </div>
